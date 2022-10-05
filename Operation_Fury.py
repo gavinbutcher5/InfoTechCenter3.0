@@ -13,5 +13,8 @@ from time import sleep #imported sleep function from the time library
 
 print("\nWelcome to Operation Fury InfoTech Center")
 sleep(2)
-print("\nOperation Fury Operation system booting up")
-print("\033[1;32m This text is Bright Green  \n")
+print("\033[1;32m Operation Fury Operation system booting up  \n")
+
+for i in range(2):
+    print("OS Booting up")
+    sleep(1)
