@@ -27,9 +27,8 @@ def vehicleResponseSystem():
         print("\nVRS changed your alarm 15 minutes earlier based on the NWS forcast of", weatherAlert)
         print("VRS will only allow your car to go 50MPH")
     elif weatherAlert == "Rain":
-        print("\nVRS changed your alarm 5 minutes earlier based on the NWS forcast of", weatherAlert)
+        print("\nVRS changed your alarm 5 minutes earlier based on the NWS forcast of" , weatherAlert)
         print("VRS will only allow your car to go 60MPH")
-
     elif weatherAlert == "Cloudy":
         print("\nVRS changed your alarm 15 minutes earlier based on the NWS forcast of", weatherAlert)
         print("VRS will only allow your car to go 40MPH")
@@ -40,7 +39,7 @@ def vehicleResponseSystem():
         print("\nVRS changed your alarm 15 minutes earlier based on the NWS forcast of", weatherAlert)
         print("VRS will only allow your car to go 50MPH")
     else:
-        print("\n The weather today is",weatherAlert, "lets go!")
+        print("\nThe weather today is",weatherAlert, "lets go!")
         print("VRS will only allow your car to go 95MPH")
 
 
