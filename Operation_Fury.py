@@ -13,7 +13,7 @@ from time import sleep #imported sleep function from the time library
 Our Welcome Screen will start our program letting
 drivers know that the InfoTechCenter OS is loading
 """
-print("\033[1;31m welcome fury Infotech Center \n")
+print("\033[1;31m Welcome Fury Infotech Center \n")
 sleep(2)
 print("\033[1;32m Operation Fury Operation system booting up  \n")
 
@@ -66,7 +66,6 @@ def vehicleResponseSystem():
         print("VRS will only allow your car to go 95MPH")
 
 
-vehicleResponseSystem()
 
 
 
@@ -116,7 +115,7 @@ def gasLevelAlert():
         sleep(.9)
         print("\nYour gas tank is a Quarter Tank full, checking Google Maps for the closest gas stations")
         sleep(.9)
-        print("The closest gas station is", listOfGasStations(),"which is" , milesToGasStationQuarterTank, "miles away.")
+        print("The closest gas station is", listOfGasStations(),"which is" ,milesToGasStationQuarterTank, "miles away.")
     elif gasLevelIndicator == "Half Tank":
         sleep(.9)
         print("\nYour gas tank is half full, you have enough to get where you are going")
@@ -124,5 +123,13 @@ def gasLevelAlert():
         print("\nYour gas tank is three Quarter Tank full, You have more than enough gas")
     else:
         print("\nYour gas tank is full, No need for gas")
+#****************************************************************************************
+
+
+#Call Functions Here
+print()
 gasLevelAlert()
+
+
+vehicleResponseSystem()
 
